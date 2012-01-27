@@ -150,3 +150,19 @@ console.log(smallerNumber + " is the smallest value in the array but greater tha
 
 };
 numValues();
+
+//Find the total value of just the numbers in an array, even if some of the items are not numbers.
+
+function arrayValues () {
+	var mixedArray = [
+		"Miriam",
+		2,
+		6,
+		"Mike"
+		];
+	var newNumArray = mixedArray.slice(1,3);
+	
+console.log(newNumArray);
+
+};
+arrayValues();
