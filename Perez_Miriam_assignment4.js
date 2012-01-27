@@ -35,3 +35,29 @@ if (email !== "aaa@bbb.ccc") {
 	}
 };
 emailAddress();
+
+//Is the string a URL? (Does it start with http: or https:?)
+
+function url () {
+	var protocol = "http";
+	var secureProtocol = "https"
+	
+if (protocol === "http") {
+
+	console.log("Fullsail's website starts with " + protocol + ".");
+	
+	if (secureProtocol === "https") {
+	
+		console.log("Many secure websites start with " + secureProtocol + ".");
+
+	} else {
+
+	console.log("All websites start with " + protocol + ".");
+	};
+	
+} else {
+	
+	console.log("All websites start with " + secureProtocol + ".");
+	}
+};
+url();
