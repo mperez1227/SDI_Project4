@@ -80,11 +80,11 @@ titleCaseString();
 //return a string with the first separator changed to the second: "a,b,c" + "," + "/" → "a/b/c".
 
 function separatedStrings () {
-	var givenString = "I love to have fruits, candy, drinks";
+	var givenString = "fruits, candy, drinks";
 	var separatorToReplace = /,/g;
 	var newSeparator = givenString.replace(separatorToReplace, "/");
 	
-console.log(newSeparator);
+console.log(givenString + "," + " /" + newSeparator);
 
 };
 separatedStrings();
