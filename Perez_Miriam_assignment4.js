@@ -166,3 +166,18 @@ console.log(newNumArray);
 
 };
 arrayValues();
+
+//Given an array of objects and the name of a key, return the array sorted by the value of that key 
+//in each of the objects: "a" + [{a:2},{a:3},{a:1}] → [{a:1},{a:2},{a:3}].\
+
+function sortingArray () {
+	var objects = [
+		"a:2",
+		"a:3",
+		"a:1"
+		]
+
+console.log(objects.sort());
+
+};
+sortingArray();
