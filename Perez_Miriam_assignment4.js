@@ -65,17 +65,16 @@ url();
 //Title-case a string (split into words, then uppercase the first letter of each word)
 
 function titleCaseString () {
-	var firstWord = "i";
-	var secondWord = "enjoy";
-	var thirdWord = "solving";
-	var fourthWord = "problems";
-	var uppercaseFirstLetter = "I Enjoy Solving Problems"
+	var myString = "i enjoy solving problems"
+	var end = myString.length
+
+console.log(myString.slice(0,1));
+console.log(myString.slice(2,7));
+console.log(myString.slice(8,15));
+console.log(myString.slice(16,24));
+console.log("I E" + myString.substring (3,8) + "S" + myString.substring (9,16) + "P" + myString.substring (18,24) + ".");
 	
-console.log(firstWord);
-console.log(secondWord);
-console.log(thirdWord);
-console.log(fourthWord);
-console.log(uppercaseFirstLetter + ".");
 
 };
 titleCaseString();
+
