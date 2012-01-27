@@ -88,3 +88,15 @@ console.log(givenString + "," + " /" + newSeparator);
 
 };
 separatedStrings();
+
+//Number
+
+//Format a number to use a specific number of decimal places, as for money: 2.1 → 2.10
+
+function decimalPlaces () {
+	var money = 2.1
+
+console.log("I have $" + money.toFixed(2) + ".");
+
+};
+decimalPlaces();
