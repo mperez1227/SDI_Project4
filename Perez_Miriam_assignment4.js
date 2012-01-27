@@ -127,3 +127,13 @@ console.log("The number of days difference between " + firstDate + " and " + sec
 
 };
 dayDifference();
+
+//Given a string version of a number such as "42", return the value as an actual Number, such as 42.
+
+function stringToNumber () {
+	var stringNumber = "42"
+	
+console.log(parseInt(stringNumber));
+
+};
+stringToNumber();
