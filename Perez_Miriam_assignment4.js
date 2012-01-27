@@ -11,8 +11,11 @@ Deliverable 4
 
 //Does a string follow a 123-456-7890 pattern like a phone number?
 
-var phoneNumber = "123-456-7890";
+function phoneNumber () {
+	var phNumber = "123-456-7890";
+	var end = phNumber.length
+	
+console.log("My phone number is, area code first " + phNumber.substring (0,end) + ".");
 
-var end = phoneNumber.indexOf("-");
-
-console.log(phoneNumber.substring (0,end));
+};
+phoneNumber();
