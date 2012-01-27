@@ -19,3 +19,19 @@ console.log("My phone number is, area code first " + phNumber.substring (0,end) 
 
 };
 phoneNumber();
+
+//Does a string follow an aaa@bbb.ccc pattern like an email address?
+
+function emailAddress () {
+	var email = "myusername@myemail.com"
+	
+if (email !== "aaa@bbb.ccc") {
+
+	console.log("My email address is " + email + ".");
+
+} else {
+
+	console.log("I'm sorry, but I do not have an email address");
+	}
+};
+emailAddress();
