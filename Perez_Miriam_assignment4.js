@@ -137,3 +137,16 @@ console.log(parseInt(stringNumber));
 
 };
 stringToNumber();
+
+//Array
+
+//Find the smallest value in an array that is greater than a given number
+
+function numValues () {
+	var myNumber = 11;
+	var smallerNumber = Math.min(12, 19, 23);
+		
+console.log(smallerNumber + " is the smallest value in the array but greater than " + myNumber + ".");
+
+};
+numValues();
