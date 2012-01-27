@@ -100,3 +100,15 @@ console.log("I have $" + money.toFixed(2) + ".");
 
 };
 decimalPlaces();
+
+//Fuzzy-match a number: is the number above or below a number within a certain percent?
+
+function fuzzyMath () {
+	var myNumber = 100;
+	var numAbove = 100*1.5;
+	var numBelow = 100/2
+
+console.log("50% above " + myNumber + " is " + numAbove + " and 50% below " + myNumber + " is " + numBelow + ".");
+
+};
+fuzzyMath();
