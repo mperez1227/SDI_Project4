@@ -66,7 +66,6 @@ url();
 
 function titleCaseString () {
 	var myString = "i enjoy solving problems"
-	var end = myString.length
 
 console.log(myString.slice(0,1));
 console.log(myString.slice(2,7));
@@ -74,7 +73,18 @@ console.log(myString.slice(8,15));
 console.log(myString.slice(16,24));
 console.log("I E" + myString.substring (3,8) + "S" + myString.substring (9,16) + "P" + myString.substring (18,24) + ".");
 	
-
 };
 titleCaseString();
 
+//Given a string that is a list of things separated by a given string, as well as another string separator, 
+//return a string with the first separator changed to the second: "a,b,c" + "," + "/" → "a/b/c".
+
+function separatedStrings () {
+	var givenString = "I love to have fruits, candy, drinks";
+	var separatorToReplace = /,/g;
+	var newSeparator = givenString.replace(separatorToReplace, "/");
+	
+console.log(newSeparator);
+
+};
+separatedStrings();
