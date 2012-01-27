@@ -61,3 +61,21 @@ if (protocol === "http") {
 	}
 };
 url();
+
+//Title-case a string (split into words, then uppercase the first letter of each word)
+
+function titleCaseString () {
+	var firstWord = "i";
+	var secondWord = "enjoy";
+	var thirdWord = "solving";
+	var fourthWord = "problems";
+	var uppercaseFirstLetter = "I Enjoy Solving Problems"
+	
+console.log(firstWord);
+console.log(secondWord);
+console.log(thirdWord);
+console.log(fourthWord);
+console.log(uppercaseFirstLetter + ".");
+
+};
+titleCaseString();
